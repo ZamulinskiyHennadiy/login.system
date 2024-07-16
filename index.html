@@ -6,17 +6,39 @@
    <title>login of the system</title>
    <style>
    input {
-      width: 200px;
+      width: 800px;
       height: 20px;
       border: 1px solid;
-      border-radius: 50px;
+      border-radius: 8=30px;
       background-color: rgb(172, 196, 197);
-      box-shadow: 4px 3px 8px 3px #7c7c7c;
+      box-shadow: 2px 2px 2px 2px #7c7c7c;
       }
       form {
-      width: 700px;
-      height: 800px;
-      background-color: rgb(238, 250, 238);
+      width: 400px;
+      height: 400px;
+      }
+      h2 {
+            text-align: center;
+            margin-bottom: 30px;
+      }
+      label {
+            display: block;
+            margin-bottom: 5px;
+      }
+      input, select, textarea {
+            width: 100%;
+            padding: 1px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+      }
+      input[type="checkbox"] {
+            width: 10px;
+            margin-right: 10px;
+      }
+      input[type="checkbox"] {
+            width: 20px;
+            margin-right: 20px;
       }
       </style>
 </head>
@@ -51,9 +73,9 @@
             <p>     
             <label for="gender">Стать:</label>
             </p>
-         <input type="radio" id="male" name="gender" value="male" checked>
+         <input type="checkbox" id="male" name="gender" value="male" checked>
          <label for="male">Чоловіча</label>
-         <input type="radio" id="female" name="gender" value="female">
+         <input type="checkbox" id="female" name="gender" value="female">
          <label for="female">Жіноча</label><br><br>
       </p> 
             <p>       
