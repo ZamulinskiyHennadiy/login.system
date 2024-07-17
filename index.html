@@ -10,11 +10,11 @@
       height: 20px;
       border: 1px solid;
       border-radius: 8=30px;
-      background-color: rgb(172, 196, 197);
+      background-color: rgb(241, 246, 247);
       box-shadow: 2px 2px 2px 2px #7c7c7c;
       }
       form {
-      width: 400px;
+      width: 230px;
       height: 400px;
       }
       h2 {
@@ -37,8 +37,9 @@
             margin-right: 10px;
       }
       input[type="checkbox"] {
-            width: 20px;
-            margin-right: 20px;
+            width: 17px;
+            margin-right: 10px;
+            margin-bottom: 25px;
       }
       </style>
 </head>
@@ -69,20 +70,15 @@
          <p>
             <input type="password" id="confirm_password" name="confirm_password" required>
          </p>
-      <p>   
-            <p>     
-            <label for="gender">Стать:</label>
-            </p>
-         <input type="checkbox" id="male" name="gender" value="male" checked>
+         <p>
+         <label for="gender">Стать:</label>
+         </p>
          <label for="male">Чоловіча</label>
+         <input type="checkbox" id="male" name="gender" value="male" checked>
+         <label for="female">Жіноча</label>
          <input type="checkbox" id="female" name="gender" value="female">
-         <label for="female">Жіноча</label><br><br>
-      </p> 
-            <p>       
             <label for="age">Вік:</label>
-            <input type="number" id="age" name="age" required>
-            </p>
-      <p>         
+            <input type="number" id="age" name="age" required>      
          <label for="course">Курс:</label>
          <select id="course" name="course">
             <option value="Front-End">Front-End</option>
@@ -97,7 +93,7 @@
             <textarea id="address" name="address" rows="4" cols="50" required></textarea>
                </p>
          <input type="checkbox" id="agree_terms" name="agree_terms" required>
-         <label for="agree_terms">Погоджуюсь з умовами конфіденційності</label><br><br>
+         <label for="agree_terms">Погоджуюсь з умовами конфіденційності</label>
          </p>     
          <input type="submit" value="Зареєструватися" class="submit-btn">
       </form>
